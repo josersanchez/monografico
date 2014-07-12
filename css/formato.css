@@ -28,13 +28,17 @@ nav ul li a{ text-decoration:none; color:blue;}
 
 nav ul li:hover{ background:#FFF}
 
+fieldset{ width:300px;}
+
+
+
 #banner{
         width:100%; height:300px;background:url(../imagenes/banner-auditoria.jpg); margin-top:20px; margin-bottom:20px; box-shadow: opx 10px 25px rgba(0,0,0,0.8);
 	}
 
-#contienebanner{padding:10px; background:rgba(255,255,255,0.2); }	
+#contienebanner{padding:10px; background:rgba(200,200,200,0.8); }	
 
-.contienearticulo{ padding:10px; height:200px; overflow:hidden; }
+.contienearticulo{ padding:10px; height:400px; overflow:hidden; }
 
 .imagendestacada{ width:100%; height:100px; background:gray; margin-bottom:10px;}
 

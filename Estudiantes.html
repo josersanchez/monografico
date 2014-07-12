@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Estudiantes CURSA</title>
+<link href="css/formato.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div id="contenedor">
+    	<header>
+            	<div id="titulo">
+                	<div id="logo">
+                    </div>
+                    <h1>Monográfico CURSA - 2014</h1>
+                </div>
+                <div style="clear:both;"></div>
+                <nav>
+                        <ul>
+                            <li>
+                                <a href="index.html">Inicio </a>  
+                            </li>
+                            <li>
+                                <a href="#">Estudiantes</a>
+                            </li>	
+                            <li>
+                                <a href="#">Metodología</a>
+                            </li>
+                            <li>
+                                <a href="auditoria.html">Auditoría y Seguridad</a>
+                            </li>
+                            <li>
+                                <a href="#">Java</a>
+                            </li>
+                        </ul>
+                 </nav>
+                 <div style="clear:both;"></div>
+         </header>
+        </div>
+	<div id="contiene_estudiante">
+    <h3>Formulario de Estudiantes</h3>
+    <fieldset>
+    	<legend>Datos Personales </legend>
+        <form method="post" action="procesarestudiantes.php">
+                	<div class="formleyenda">Nombre:</div>
+                    <input type="text" id="nombre">
+                    <div class="formleyenda">Telefono:</div>
+                    <input type="tel" id="telefono" maxlength="10">
+                    <div class="formleyenda">Ciudad</div>
+                    <input type="text" id="ciudad">
+                    <div class="formleyenda">Correo electronico</div>
+                    <input type="email" id="email">
+                    <div class="formleyenda">Skills</div>
+                    <textarea name="Skills"></textarea>
+      </fieldset>
+      <fieldset id="skills">
+      	<legend>Skills</legend>
+        <input type="checkbox">Java
+        <input type="checkbox">HTML<br>
+        <input type="checkbox">CSS
+        <input type="checkbox">JavaScript<br>
+        <input type="checkbox">Visual Basic
+        <input type="checkbox">C#<br>
+        <input type="checkbox">Rubi on Rail
+        <input type="checkbox">mySQL
+      </fieldset>
+      <input type="submit" value="Enviar" id="botonenviar">
+      </form>
+    
+	</div>
+</body>
+</html>
